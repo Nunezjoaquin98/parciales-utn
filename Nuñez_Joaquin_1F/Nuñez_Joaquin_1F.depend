@@ -1,0 +1,133 @@
+# depslib dependency file v1.0
+1570501826 source:d:\joacoooo\nuñez_joaquin_1f\clientes juegos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"Clientes Juegos.h"
+
+1570501689 d:\joacoooo\nuñez_joaquin_1f\clientes juegos.h
+
+1570501746 source:d:\joacoooo\nuñez_joaquin_1f\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"Clientes Juegos.h"
+
+1570496092 source:d:\joacoooo\nuñez_joaquin_1f\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"funciones.h"
+
+1570498087 d:\joacoooo\nuñez_joaquin_1f\funciones.h
+
+1570557837 source:c:\users\joaco\documents\nuñez_joaquin_1f\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"funciones.h"
+
+1570498087 c:\users\joaco\documents\nuñez_joaquin_1f\funciones.h
+
+1570502811 source:c:\users\joaco\documents\nuñez_joaquin_1f\clientes juegos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"Clientes Juegos.h"
+
+1570502820 c:\users\joaco\documents\nuñez_joaquin_1f\clientes juegos.h
+
+1561418203 source:c:\users\joaco\documents\nuñez_joaquin_1f\fecha.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"fecha.h"
+
+1561418203 c:\users\joaco\documents\nuñez_joaquin_1f\fecha.h
+
+1570557113 source:c:\users\joaco\documents\nuñez_joaquin_1f\alquileres.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"Clientes Juegos.h"
+	"fecha.h"
+	"alquileres.h"
+
+1570557107 c:\users\joaco\documents\nuñez_joaquin_1f\alquileres.h
+
+1570557836 source:c:\users\joaco\documents\nuñez_joaquin_1f\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"Clientes Juegos.h"
+	"fecha.h"
+	"alquileres.h"
+
+1570578494 source:d:\joacoooo\ultimo\nuñez_joaquin_1f\alquileres.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"Clientes Juegos.h"
+	"fecha.h"
+	"alquileres.h"
+
+1570498087 d:\joacoooo\ultimo\nuñez_joaquin_1f\funciones.h
+
+1570571962 d:\joacoooo\ultimo\nuñez_joaquin_1f\clientes juegos.h
+
+1561418203 d:\joacoooo\ultimo\nuñez_joaquin_1f\fecha.h
+
+1570577484 d:\joacoooo\ultimo\nuñez_joaquin_1f\alquileres.h
+
+1570571950 source:d:\joacoooo\ultimo\nuñez_joaquin_1f\clientes juegos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"Clientes Juegos.h"
+
+1561418203 source:d:\joacoooo\ultimo\nuñez_joaquin_1f\fecha.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"fecha.h"
+
+1570572412 source:d:\joacoooo\ultimo\nuñez_joaquin_1f\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"funciones.h"
+
+1570578770 source:d:\joacoooo\ultimo\nuñez_joaquin_1f\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"Clientes Juegos.h"
+	"fecha.h"
+	"alquileres.h"
+	"informes.h"
+
+1570578999 source:d:\joacoooo\ultimo\nuñez_joaquin_1f\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"Clientes Juegos.h"
+	"fecha.h"
+	"alquileres.h"
+	"informes.h"
+
+1570576267 d:\joacoooo\ultimo\nuñez_joaquin_1f\informes.h
+
