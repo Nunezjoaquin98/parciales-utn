@@ -98,17 +98,7 @@ int findJuego(eJuego list[], int len, int id)
 
 }
 
-float obtenerPrecioJuego(eJuego listJuego[],int lenJuego,int codigo)
-{
 
-    float ret = 0;
-    int index;
-
-    index = findJuego(listJuego,lenJuego,codigo);
-    listJuego[index].importeDelJuego = ret;
-
-    return ret;
-}
 
 //FUNCIONES CLIENTES
 

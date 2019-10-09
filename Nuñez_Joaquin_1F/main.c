@@ -15,6 +15,7 @@ int main()
     char salir = 'n';
     char salirAlquiler = 'n';
     char salirInformes = 'n';
+    float promedioJuegos = 0;
     eClientes clientes[TAMCLIENTES];
     eJuego juegos[TAMJUEGOS];
     eAlquileres alquileres[TAMAALQ];
@@ -87,10 +88,23 @@ int main()
             {
                 switch(menuInformes())
                 {
-                case 7: //falta
-                    function_promedioTotalJuegos(juegos,TAMJUEGOS,alquileres,TAMAALQ);
+                case 7:
+                    promedioJuegos = promedioTotalJuegos(juegos,TAMJUEGOS,alquileres,TAMAALQ);
                     printf("\n\n");
                     system("pause");
+                    break;
+                case 8:
+                    if(promedioJuegos == 0)
+                    {
+                        system("cls");
+                        printf("No realizo el promedio de juegos alquilados(opcion 7) o no hay ningun alquiler realizado.");
+                        printf("\n\n");
+                        system("pause");
+                    }else
+                    {
+                    system("cls");
+                    juegosNoSuperanPromedio(juegos,TAMJUEGOS,promedioJuegos);
+                    }
                     break;
                 case 9:
                     system("cls");

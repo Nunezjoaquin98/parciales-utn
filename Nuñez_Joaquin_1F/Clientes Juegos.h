@@ -29,8 +29,6 @@ void showJuegos(eJuego list[],int len);
 
 int findJuego(eJuego list[], int len, int id);
 
-float obtenerPrecioJuego(eJuego listJuego[],int lenJuego,int codigo);
-
 //funciones de clientes
 
 int menuClientes( );

@@ -15,7 +15,7 @@ int menuInformes()
     system("cls") ;
     printf("\n\t\t*** MENU INFORMES ***\n\n");
     printf("7-Promedio y Total de los importes de los juegos alquilados\n") ;
-    printf("8-\n") ;
+    printf("8-La cantidad de juegos cuyo importe no superan el promedio del item anterior\n") ;
     printf("9-Listar todos los clientes que alquilaron un juego determinado\n") ;
     printf("10-Listar todos los juegos que fueron alquilados por un cliente determinado\n") ;
     printf("11-\n") ;
@@ -35,7 +35,7 @@ int menuInformes()
     return option;
 }
 
-void function_promedioTotalJuegos (eJuego listJuegos[],int lenJuegos, eAlquileres listAlq[],int lenAlq)
+float promedioTotalJuegos (eJuego listJuegos[],int lenJuegos, eAlquileres listAlq[],int lenAlq)
 {
     float contImporte = 0;
     float promedioFinal = 0;
@@ -43,6 +43,7 @@ void function_promedioTotalJuegos (eJuego listJuegos[],int lenJuegos, eAlquilere
     int codigoJuego;
     int contJuegos = 0;
     int indexJuego;
+    float ret = 0;
 
     for(int i = 0;i < lenAlq;i++)
     {
@@ -62,8 +63,34 @@ void function_promedioTotalJuegos (eJuego listJuegos[],int lenJuegos, eAlquilere
     //calculo el promedio y lo muestro
     promedioFinal = contImporte / contJuegos;
 
+    ret = promedioFinal;
+
     printf("\n\nEl promedio total de los juegos alquilados es: $%0.2f\nEl total de los importes de los juegos alquilados es: $%0.2f",promedioFinal,contImporte);
 
+    return ret;
+}
+
+void juegosNoSuperanPromedio(eJuego listJuegos[],int lenJuegos,float promedio)
+{
+    int contadorJuegos = 0;
+
+    for(int i = 0; i < lenJuegos;i++)
+    {
+        if(promedio > 0 && listJuegos[i].importeDelJuego < promedio)
+        {
+            contadorJuegos++;
+        }
+    }
+
+    if(contadorJuegos == 0)
+    {
+        printf("No hay juegos que superen el importe de $%0.2f.\n\n",promedio);
+        system("pause");
+    }else
+    {
+        printf("La cantidad de juegos que no superan el importe de $%0.2f son: %d\n\n",promedio,contadorJuegos);
+        system("pause");
+    }
 }
 
 void listarClientesDeJuego(eJuego listJuegos[],int lenJuegos,eClientes listClientes[],int lenClientes,eAlquileres listAlquileres[],int lenAlquileres)
@@ -301,4 +328,5 @@ void clienteEnFechaDeterminada(eAlquileres listAlquileres[],int lenAlq,eClientes
 
 
 }
+
 

@@ -6,7 +6,9 @@ int menuInformes();
  *
  */
 
-void function_promedioTotalJuegos (eJuego listJuegos[],int lenJuegos, eAlquileres listAlq[],int lenAlq);
+float promedioTotalJuegos (eJuego listJuegos[],int lenJuegos, eAlquileres listAlq[],int lenAlq);
+
+void juegosNoSuperanPromedio(eJuego listJuegos[],int lenJuegos,float promedio);
 
 void listarClientesDeJuego(eJuego listJuegos[],int lenJuegos,eClientes listClientes[],int lenClientes,eAlquileres listAlquileres[],int lenAlquileres);
 

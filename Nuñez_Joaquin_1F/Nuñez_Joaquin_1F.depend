@@ -82,13 +82,13 @@
 
 1570498087 d:\joacoooo\ultimo\nuñez_joaquin_1f\funciones.h
 
-1570571962 d:\joacoooo\ultimo\nuñez_joaquin_1f\clientes juegos.h
+1570579338 d:\joacoooo\ultimo\nuñez_joaquin_1f\clientes juegos.h
 
 1561418203 d:\joacoooo\ultimo\nuñez_joaquin_1f\fecha.h
 
 1570577484 d:\joacoooo\ultimo\nuñez_joaquin_1f\alquileres.h
 
-1570571950 source:d:\joacoooo\ultimo\nuñez_joaquin_1f\clientes juegos.c
+1570579324 source:d:\joacoooo\ultimo\nuñez_joaquin_1f\clientes juegos.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -109,7 +109,7 @@
 	<ctype.h>
 	"funciones.h"
 
-1570578770 source:d:\joacoooo\ultimo\nuñez_joaquin_1f\main.c
+1570579167 source:d:\joacoooo\ultimo\nuñez_joaquin_1f\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -119,7 +119,7 @@
 	"alquileres.h"
 	"informes.h"
 
-1570578999 source:d:\joacoooo\ultimo\nuñez_joaquin_1f\informes.c
+1570580262 source:d:\joacoooo\ultimo\nuñez_joaquin_1f\informes.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -129,5 +129,5 @@
 	"alquileres.h"
 	"informes.h"
 
-1570576267 d:\joacoooo\ultimo\nuñez_joaquin_1f\informes.h
+1570579886 d:\joacoooo\ultimo\nuñez_joaquin_1f\informes.h
 
