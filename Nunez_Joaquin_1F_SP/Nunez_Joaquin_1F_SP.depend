@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1574732482 source:d:\joaco\nunez_joaquin_1f_sp\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"eComputer.h"
+	"LinkedList.h"
+	"Controller.h"
+	"parser.h"
+
+1574733829 d:\joaco\nunez_joaquin_1f_sp\ecomputer.h
+
+1574728799 d:\joaco\nunez_joaquin_1f_sp\linkedlist.h
+
+1574692412 d:\joaco\nunez_joaquin_1f_sp\controller.h
+
+1574731995 d:\joaco\nunez_joaquin_1f_sp\parser.h
+
+1574733468 source:d:\joaco\nunez_joaquin_1f_sp\ecomputer.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"eComputer.h"
+	"LinkedList.h"
+	"Controller.h"
+	"parser.h"
+
+1574730724 source:d:\joaco\nunez_joaquin_1f_sp\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"utn.h"
+
+1574604955 d:\joaco\nunez_joaquin_1f_sp\utn.h
+
+1574732589 source:d:\joaco\nunez_joaquin_1f_sp\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"eComputer.h"
+	"LinkedList.h"
+	"Controller.h"
+	"parser.h"
+
+1574732700 source:d:\joaco\nunez_joaquin_1f_sp\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"eComputer.h"
+	"LinkedList.h"
+	"Controller.h"
+	"parser.h"
+
+1574731536 source:d:\joaco\nunez_joaquin_1f_sp\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
