@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1576167400 source:c:\users\joaco\desktop\template\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"eComputer.h"
+	"LinkedList.h"
+	"Controller.h"
+	"parser.h"
+
+1576168531 source:c:\users\joaco\desktop\template\ecomputer.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"eComputer.h"
+	"LinkedList.h"
+
+1576168539 c:\users\joaco\desktop\template\ecomputer.h
+
+1576163427 source:c:\users\joaco\desktop\template\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"eComputer.h"
+	"Parser.h"
+
+1576163213 c:\users\joaco\desktop\template\linkedlist.h
+
+1576163432 c:\users\joaco\desktop\template\parser.h
+
+1576163523 source:c:\users\joaco\desktop\template\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"eComputer.h"
+
+1576174909 source:c:\users\joaco\desktop\template\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Controller.h"
+	"eComputer.h"
+	"Parser.h"
+
+1576175083 c:\users\joaco\desktop\template\controller.h
+
+1576164977 source:c:\users\joaco\desktop\template\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
+1576165049 c:\users\joaco\desktop\template\utn.h
+
